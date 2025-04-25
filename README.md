@@ -40,11 +40,12 @@ python emailsender.py
 
 Update the script with your credentials and email information:
 ```bash
-sender_email = "your_email@example.com"
-password = "your_password"
-receiver_email = "recipient@example.com"
-subject = "Hello from Python!"
-body = "This is a test email sent using a Python script."
+to = input("Enter the email address of the recipient\n")
+subject = input("Enter the subject of the email\n")
+content = input("Enter the content of the email\n")
+server.login('senderemailaddress@gmail.com', 'password')
+server.sendmail('senderemailaddress@gmail.com', to, subject, content)
+
 ```
 
 🔐 Security Warning
