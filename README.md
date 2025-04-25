@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 3. Run the script:
 ```bash
-python email_sender.py
+python emailsender.py
 ```
 
 ### 💻 Usage
