@@ -86,9 +86,12 @@ Short answer: No, your implementation is not the same as MailHog.
 
 ### ✅ Use Case Summary:
 
-Feature | My Script | MailHog
-Sends real email | ✔️ Yes | ❌ No
-Needs email credentials | ✔️ Yes | ❌ No
-Good for testing safely | ⚠️ Risky | ✔️ Yes
-Graphical UI to view email | ❌ No | ✔️ Yes
-Internet connection needed | ✔️ Yes | ❌ No (runs locally)
+```
+| Feature                    | My Script                        | MailHog                          |
+|----------------------------|----------------------------------|----------------------------------|
+| Sends real email           | ✔️ Yes                          | ❌ No                            |
+| Needs email credentials    | ✔️ Yes                          | ❌ No                            |
+| Good for testing safely    | ⚠️ Risky                        | ✔️ Yes                           |
+| Graphical UI to view email | ❌ No                           | ✔️ Yes                           |
+| Internet connection needed | ✔️ Yes                          | ❌ No (runs locally)             |
+```
