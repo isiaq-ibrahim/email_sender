@@ -36,5 +36,25 @@ pip install -r requirements.txt
 python email_sender.py
 ```
 
+### 💻 Usage
 
- 
+Update the script with your credentials and email information:
+```bash
+sender_email = "your_email@example.com"
+password = "your_password"
+receiver_email = "recipient@example.com"
+subject = "Hello from Python!"
+body = "This is a test email sent using a Python script."
+```
+
+🔐 Security Warning
+Do not hardcode your email credentials in the script, especially if you're pushing to a public repository. Use environment variables or a .env file for better security.
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+🙌 Contributions
+Contributions, issues, and suggestions are welcome! Feel free to fork this repo and submit a pull request.
+
+📫 Contact
+If you found this project helpful or have questions, feel free to connect with me on LinkedIn https://www.linkedin.com/in/isiaq-ibrahim-468588156/ or drop a message!
