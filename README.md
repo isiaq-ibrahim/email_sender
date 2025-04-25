@@ -48,13 +48,36 @@ body = "This is a test email sent using a Python script."
 ```
 
 🔐 Security Warning
+
 Do not hardcode your email credentials in the script, especially if you're pushing to a public repository. Use environment variables or a .env file for better security.
 
 📄 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 🙌 Contributions
+
 Contributions, issues, and suggestions are welcome! Feel free to fork this repo and submit a pull request.
 
 📫 Contact
+
 If you found this project helpful or have questions, feel free to connect with me on LinkedIn https://www.linkedin.com/in/isiaq-ibrahim-468588156/ or drop a message!
+
+🔍 Is this the same as MailHog?
+
+Short answer: No, your implementation is not the same as MailHog.
+
+### 🧠 Here's the difference:
+
+#### ✅ My Script:
+- Sends real emails via Gmail’s SMTP server (smtp.gmail.com).
+- Requires actual credentials (email and password).
+- Sends messages to real email addresses on the internet.
+- Ideal for production or small automation tasks, but risky without proper credential handling.
+
+#### 🛠️ MailHog:
+- MailHog is a local email testing tool.
+- It intercepts and captures outgoing emails without actually sending them.
+- Provides a web UI and API to view emails sent by your application.
+- Safe for testing — no emails ever reach the internet.
+- Commonly used during development to test email content, formatting, etc., without spamming real inboxes.
