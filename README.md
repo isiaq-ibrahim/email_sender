@@ -25,3 +25,16 @@ This repository contains the source code for my **Email Sender** project — a s
    ```bash
    git clone https://github.com/your-username/email-sender-python.git
    cd email-sender-python
+
+2. Install required packages (optional, if you use additional libraries):
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the script:
+```bash
+python email_sender.py
+```
+
+
+ 
