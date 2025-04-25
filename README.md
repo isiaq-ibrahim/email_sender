@@ -63,6 +63,8 @@ Contributions, issues, and suggestions are welcome! Feel free to fork this repo 
 
 If you found this project helpful or have questions, feel free to connect with me on LinkedIn https://www.linkedin.com/in/isiaq-ibrahim-468588156/ or drop a message!
 
+
+
 🔍 Is this the same as MailHog?
 
 Short answer: No, your implementation is not the same as MailHog.
@@ -81,3 +83,12 @@ Short answer: No, your implementation is not the same as MailHog.
 - Provides a web UI and API to view emails sent by your application.
 - Safe for testing — no emails ever reach the internet.
 - Commonly used during development to test email content, formatting, etc., without spamming real inboxes.
+
+### ✅ Use Case Summary:
+
+Feature | My Script | MailHog
+Sends real email | ✔️ Yes | ❌ No
+Needs email credentials | ✔️ Yes | ❌ No
+Good for testing safely | ⚠️ Risky | ✔️ Yes
+Graphical UI to view email | ❌ No | ✔️ Yes
+Internet connection needed | ✔️ Yes | ❌ No (runs locally)
